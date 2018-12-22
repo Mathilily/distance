@@ -12,9 +12,7 @@ String apiKey="Ib=Oc6lBrBnpb2iswDaRfl9m8cM=";//与你的设备绑定的APIKey
 #include <Wire.h>                                  //调用库  
 #include <ESP8266.h>
 #include <I2Cdev.h>                                //调用库  
-/*******温湿度*******/
 #include <Microduino_SHT2x.h>
-/*******光照*******/
 #define  sensorPin_1  A0
 #define IDLE_TIMEOUT_MS  3000      // Amount of time to wait (in milliseconds) with no data 
                                    // received before closing the connection.  If you know the server
