@@ -1,0 +1,24 @@
+/* pages/index/index.wxss */
+.index{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar{
+  height: 275rpx;
+  width: 275rpx;
+}
+
+.start{
+  margin-top: 75rpx;
+}
+
+.img1{
+  height: 150rpx;
+  width: 150rpx;
+}
+.img2{
+  height: 200rpx;
+  width: 200rpx;
+}
